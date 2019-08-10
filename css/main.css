@@ -1,0 +1,136 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    border: none;
+    outline: none;
+    text-align: end;
+}
+
+body {
+    background-color: #d3d3d3;
+}
+
+main {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #d3d3d3;
+    background-color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+
+h1,h2 {
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#error-display {
+    display: none;
+    width: 93%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-color: crimson;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#user-inputs {
+    background-color: #4733ff;
+    padding: 8px;
+    margin: 5px 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.name, p {
+    color: #fff;
+    text-align: start;
+}
+
+p {
+    display: inline-block;
+    text-align: start;
+}
+
+input {
+    width: 50%;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    text-align: end;
+    border-radius: 5px;
+}
+
+#move {
+    color: #fff;
+}
+
+#rate-output, .name {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    left: 5px;
+    bottom: 15px;
+    align-content: center;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+
+#months-output {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    left: 5px;
+    bottom: 15px;
+    align-content: center;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    display: none;
+    margin: 0 auto;
+}
+
+#results {
+    background-color: #4733ff;
+    padding: 8px;
+    margin: 5px 5px;
+    border-radius: 5px;
+    display: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #ffa333;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1027px) {
+    p {
+        font-size: 70%;
+    }
+  }
+@media screen and (max-width: 666px) {
+    main {
+        width: 100%;
+    }
+
+    p {
+        font-size: 100%;
+    }
+    
+  }
