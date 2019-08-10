@@ -72,7 +72,7 @@ displayError = () => {
         errorDisplay.style.display = 'none';
     }, 2700);
 
-    loanAmount.value = '';
+    //loanAmount.value = '';
 }
 
 displayGif = () => {
